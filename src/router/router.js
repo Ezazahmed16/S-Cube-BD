@@ -7,11 +7,13 @@ import OurCapability from "../components/OurCapability/OurCapability";
 import WorkPolicy from "../components/WorkPolicy/WorkPolicy";
 import OurExpertise from "../components/OurExpertise/OurExpertise";
 import Contact from "../pages/Contact/Contact";
+import Error from '../shared/Error/Error'
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Main />,
+        errorElement: <Error />,
         children: [
             {
                 path: "/",

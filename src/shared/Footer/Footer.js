@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { FaFacebook } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
 import { FaLinkedinIn } from 'react-icons/fa'
+import gil_logo from '../../assets/GIL.png'
 
 const footerStyle = {
   background: `url(${background})`,
@@ -44,6 +45,13 @@ const Footer = () => {
             <ImWhatsapp className='w-8 h-8' />
             <FaLinkedinIn className='w-8 h-8' />
           </div>
+
+          <header style={{ color: '#F8C40D' }} className="footer-title my-5">WEBSITE DEVELOPED BY</header>
+
+          <div className="">
+            <img className='w-44' src={gil_logo} alt="" srcset="" />
+          </div>
+
         </nav>
 
       </footer>

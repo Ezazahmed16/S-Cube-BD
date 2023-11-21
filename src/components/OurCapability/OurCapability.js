@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../../assets/fabric-texture-background1.jpg';
+import bg from '../../assets/bg/bg_4.webp';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 const OurCapability = () => {
@@ -8,34 +8,39 @@ const OurCapability = () => {
   };
 
   const images = [
+    'https://cdn.pixabay.com/photo/2019/03/16/08/47/thread-4058667_640.jpg',
+    'https://cdn.pixabay.com/photo/2017/10/11/14/32/blur-2841225_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/11/19/20/17/catwalk-1840941_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/11/23/18/12/bag-1854148_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/03/20/13/48/zip-1268656_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/11/22/21/57/apparel-1850804_640.jpg',
     'https://cdn.pixabay.com/photo/2020/03/09/16/02/silk-4916174_640.jpg',
     'https://cdn.pixabay.com/photo/2016/07/12/11/45/towels-1511875_640.jpg',
-    'https://cdn.pixabay.com/photo/2017/02/16/21/50/textile-2072568_640.jpg',
-    'https://cdn.pixabay.com/photo/2015/09/09/18/01/black-932213_640.jpg',
-    'https://cdn.pixabay.com/photo/2016/03/20/13/48/zip-1268656_640.jpg',
-    'https://cdn.pixabay.com/photo/2017/09/28/08/38/arrangement-2794696_640.jpg',
-    'https://cdn.pixabay.com/photo/2020/03/09/16/02/silk-4916174_640.jpg',
-    'https://cdn.pixabay.com/photo/2016/07/12/11/45/towels-1511875_640.jpg',
-    'https://cdn.pixabay.com/photo/2017/02/16/21/50/textile-2072568_640.jpg',
-    'https://cdn.pixabay.com/photo/2015/09/09/18/01/black-932213_640.jpg',
-    'https://cdn.pixabay.com/photo/2016/03/20/13/48/zip-1268656_640.jpg',
-    'https://cdn.pixabay.com/photo/2017/09/28/08/38/arrangement-2794696_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/03/27/22/16/fashion-1284496_640.jpg',
+    'https://cdn.pixabay.com/photo/2014/10/27/19/18/baby-shoes-505471_640.jpg',
+    'https://cdn.pixabay.com/photo/2015/01/16/15/01/fashion-601553_640.jpg',
+    'https://cdn.pixabay.com/photo/2017/03/27/12/45/woman-2178480_640.jpg',
+    'https://cdn.pixabay.com/photo/2020/06/05/03/35/fashion-5261318_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/11/19/11/33/footwear-1838767_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/07/22/16/33/fashion-1535208_640.jpg',
   ];
 
 
   return (
     <div>
 
-      <div style={backgroundStyle} className="">
-        <h1 data-aos="zoom-in" className="text-5xl text-center pb-5" style={{ color: '#7F8189' }}>
+      <div style={backgroundStyle} className="py-10">
+        <h1 data-aos="zoom-in" className="text-5xl text-center py-5" style={{ color: '#FBC80B' }}>
           Our Capability
         </h1>
-        <p className="text-center py-5 container mx-auto" style={{ color: '#7F8189' }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse magni dolores in eos
-          repudiandae vel fuga autem doloremque, pariatur exercitationem distinctio. Iste quibusdam
-          deleniti quos placeat corporis fuga ullam animi blanditiis adipisci, vel, exercitationem
-          aliquam dolore? Est sapiente dolorum maxime veritatis, quis perspiciatis illum autem
-          repellat odio velit harum, aperiam magnam sit et, alias nisi quisquam id neque accusantium!
+        <p className="text-center py-5 container mx-auto" style={{ color: '#D5A01E' }}>
+          At S-Cube BD, our capacity extends beyond delivering exceptional professional services. We prioritize Compliance, ensuring that all our operations adhere to ethical standards and regulatory requirements. Our commitment to on-time delivery and maintaining the highest quality sets us apart.
+
+          We firmly believe in cultivating long-term, mutually beneficial business relationships built on transparency and ethical commerce practices. Analyzing products and production efficiency, we engage in product reengineering to ensure competitive pricing for our clients.
+
+          To stay ahead of the curve, we meticulously scrutinize market trends in fabric, color, and style. Our team actively participates in various fairs and collaborates with trend analysis companies to provide our clients with cutting-edge solutions.
+
+          Our team is the backbone of our success. We invest in our team members, fostering a culture of continuous learning and growth. This investment enhances team expertise, enabling us to grow together and better serve our clients.
         </p>
       </div>
 

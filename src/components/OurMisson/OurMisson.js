@@ -13,28 +13,18 @@ const OurMission = () => {
 
   return (
     <div>
-      <div style={backgroundStyle} className="py-5">
-        <div className="max-h-screen">
-          <h1 data-aos="zoom-in" className="text-5xl text-center" style={{ color: '#7F8189' }}>
-            Our Mission
-          </h1>
-        </div>
+      <div style={backgroundStyle} className="py-10">
+
         <div className="">
           <div className="hero min-h-screen">
             <div className="hero-content grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center">
-              <div style={{ color: '#7F8189' }}>
-                <h1 className="text-5xl font-bold">Box Office News!</h1>
-                <p className="py-6">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                  exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                  exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                  exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                  exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                  exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+              <div style={{ color: '#FBC80B' }}>
+                <h1 className="text-5xl font-bold">
+                  Our Mission at S-Cube BD</h1>
+                <p style={{ color: "#D5A01E" }} className="py-6">
+
+                  At S-Cube BD, our mission is clear and concise: to deliver exceptional professional services that effectively address our clients' business challenges. We achieve this by attracting and retaining top talent, fostering a collaborative culture that encourages both professional and personal growth. Our commitment is to be the most trusted and respected professional services firm, recognized by our clients for delivering excellence.
+
                 </p>
               </div>
 

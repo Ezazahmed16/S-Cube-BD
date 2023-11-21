@@ -17,11 +17,11 @@ const HeaderNavbar = () => {
                 <div className="flex justify-between md:justify-end gap-5">
                     <div className="flex gap-2 items-center">
                         <BiSolidPhoneCall className='w-6 h-6' />
-                        <h1>017274548</h1>
+                        <h1>+88 01726-369626</h1>
                     </div>
                     <div className="flex gap-2 items-center">
                         <MdEmail className='w-6 h-6' />
-                        <h1>demo@gmail.com</h1>
+                        <h1>supplychain@s-cubebd.com</h1>
                     </div>
                 </div>
             </div>

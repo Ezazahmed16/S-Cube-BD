@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import bg from '../../assets/fabric-texture-background1.jpg'
+import bg from '../../assets/bg/bg_4.webp'
 import { motion } from "framer-motion";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -16,7 +16,7 @@ const Cornerstone = () => {
 
     return (
         <div style={backgroundStyle} className='py-5'>
-            <h1 style={{ color: '#D5A01E' }} className='text-3xl md:text-5xl text-center py-5'>The <span style={{ color: '#FBC80B' }} > Cornerstone </span> of Every Collection</h1>
+            <h1 data-aos="fade-right" style={{ color: '#FBC80B' }} className='text-3xl md:text-5xl text-center py-5'>The Cornerstone of Every Collection</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-6xl mx-auto">
                 <div
@@ -25,11 +25,11 @@ const Cornerstone = () => {
                     data-aos-anchor-placement="top-bottom"
                 >
                     <div className="card-body">
-                        <h2 style={{ color: '#D5A01E' }} className="card-title ">Research & Development</h2>
-                        <p className='text-accent text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiarem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officia!</p>
+                        <h2 style={{ color: '#FBC80B' }} className="card-title ">Research & Development</h2>
+                        <p style={{ color: "#D5A01E" }} className='text-accent text-sm'>S-Cube BD's Research & Development ensures compliance, timely delivery, and quality, offering competitive pricing through continuous product and market analysis.</p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
-                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_640.jpg" alt="Shoes" /></figure>
+                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_640.jpg" alt="Shoes" /></figure>
                     </motion.div>
                 </div>
 
@@ -39,11 +39,12 @@ const Cornerstone = () => {
                     data-aos-anchor-placement="top-bottom"
                 >
                     <div className="card-body">
-                        <h2 style={{ color: '#D5A01E' }} className="card-title ">Design</h2>
-                        <p className='text-accent text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiarem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officia!</p>
+                        <h2 style={{ color: '#FBC80B' }} className="card-title ">Design</h2>
+                        <p style={{ color: "#D5A01E" }} className='text-sm'>
+                            S-Cube BD's design expertise blends creativity and functionality, ensuring captivating aesthetics and optimal user experience for your brand.</p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
-                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2016/11/24/20/30/floor-plan-1857175_640.jpg" alt="Shoes" /></figure>
+                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2017/08/03/12/21/tailoring-2575930_640.jpg" alt="Shoes" /></figure>
                     </motion.div>
 
                 </div>
@@ -54,11 +55,11 @@ const Cornerstone = () => {
                     data-aos-anchor-placement="top-bottom"
                 >
                     <div className="card-body">
-                        <h2 style={{ color: '#D5A01E' }} className="card-title ">Production</h2>
-                        <p className='text-accent text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiarem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officia!</p>
+                        <h2 style={{ color: '#FBC80B' }} className="card-title ">Production</h2>
+                        <p style={{ color: "#D5A01E" }} className='text-sm'>At S-Cube BD, our production prowess guarantees seamless execution, meeting deadlines with unparalleled quality and compliance adherence.</p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
-                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2018/02/02/17/14/triangle-3125882_640.jpg" alt="Shoes" /></figure>
+                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2023/07/13/08/58/ai-generated-8124243_640.jpg" alt="Shoes" /></figure>
                     </motion.div>
                 </div>
 
@@ -68,8 +69,8 @@ const Cornerstone = () => {
                     data-aos-anchor-placement="top-bottom"
                 >
                     <div className="card-body">
-                        <h2 style={{ color: '#D5A01E' }} className="card-title ">Operations Support</h2>
-                        <p className='text-accent text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiarem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officia!</p>
+                        <h2 style={{ color: '#FBC80B' }} className="card-title ">Operations Support</h2>
+                        <p style={{ color: "#D5A01E" }} className='text-sm'>Our dedicated operations team ensures streamlined processes, providing unwavering support for a hassle-free and efficient business experience.</p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
                         <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2017/07/06/14/48/organization-2478211_1280.jpg" alt="Shoes" /></figure>
