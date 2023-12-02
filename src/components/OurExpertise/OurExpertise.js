@@ -1,6 +1,10 @@
 import React from 'react'
 import bg from "../../assets/bg/bg_5.webp"
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import ex_1 from '../../assets/ex_3.jpg'
+import ex_2 from '../../assets/ex2.jpg'
+import ex_3 from '../../assets/ex_5.jpg'
+import ex_4 from '../../assets/tr_5.jpg'
 
 const OurExpertise = () => {
     const backgroundStyle = {
@@ -8,21 +12,21 @@ const OurExpertise = () => {
     };
 
     const images = [
-        'https://cdn.pixabay.com/photo/2019/03/16/08/47/thread-4058667_640.jpg',
-        'https://cdn.pixabay.com/photo/2017/10/11/14/32/blur-2841225_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/11/19/20/17/catwalk-1840941_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/11/23/18/12/bag-1854148_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/03/20/13/48/zip-1268656_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/11/22/21/57/apparel-1850804_640.jpg',
-        'https://cdn.pixabay.com/photo/2020/03/09/16/02/silk-4916174_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/07/12/11/45/towels-1511875_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/03/27/22/16/fashion-1284496_640.jpg',
+        'https://cdn.pixabay.com/photo/2021/11/15/05/25/boutique-6796399_640.jpg',
+        `${ex_1}`,
+        `${ex_2}`,
+        'https://img.freepik.com/premium-photo/woman-black-long-skirt-shirt-with-colored-patterns-sneakers-white-background-studio-shot_481253-473.jpg?w=360',
+        'https://cdn.pixabay.com/photo/2016/04/19/13/39/store-1338629_1280.jpg',
+        `${ex_3}`,
+        'https://cdn.pixabay.com/photo/2020/10/04/07/00/girl-5625416_640.jpg',
+        `${ex_4}`,
         'https://cdn.pixabay.com/photo/2014/10/27/19/18/baby-shoes-505471_640.jpg',
         'https://cdn.pixabay.com/photo/2015/01/16/15/01/fashion-601553_640.jpg',
-        'https://cdn.pixabay.com/photo/2017/03/27/12/45/woman-2178480_640.jpg',
-        'https://cdn.pixabay.com/photo/2020/06/05/03/35/fashion-5261318_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/11/19/11/33/footwear-1838767_640.jpg',
-        'https://cdn.pixabay.com/photo/2016/07/22/16/33/fashion-1535208_640.jpg',
+        'https://cdn.pixabay.com/photo/2016/03/27/22/05/necktie-1284463_1280.jpg',
+        'https://img.freepik.com/free-photo/woman-with-shopping-bags-studio-yellow-background-isolated_1303-14294.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=sph',
+        'https://cdn.pixabay.com/photo/2014/06/25/21/46/bikini-377487_640.jpg',
+        'https://cdn.pixabay.com/photo/2016/04/16/19/51/girl-1333640_640.jpg',
+        'https://img.freepik.com/free-photo/young-handsome-man-choosing-shoes-shop_1303-19707.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais',
     ];
 
 

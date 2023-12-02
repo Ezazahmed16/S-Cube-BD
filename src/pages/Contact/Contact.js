@@ -14,7 +14,7 @@ const Contact = () => {
                 </h1>
                 <div className="hero">
 
-                    <section style={{ color: "#FBC80B" }} className="py-6">
+                    <div style={{ color: "#FBC80B" }} className="py-6">
                         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                             <div className="py-6 md:py-0 md:px-6">
                                 <h1 className="text-4xl font-bold mb-5">Get in touch</h1>
@@ -54,7 +54,7 @@ const Contact = () => {
                                 ></iframe>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
         </div>

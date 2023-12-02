@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import bg from '../../assets/bg/bg_4.webp'
+import bg from '../../assets/bg/t_bg_2.webp'
 import { motion } from "framer-motion";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -12,15 +12,16 @@ const Cornerstone = () => {
 
     const backgroundStyle = {
         backgroundImage: `url(${bg})`,
+        backgroundSize: 'cover',
     };
 
     return (
         <div style={backgroundStyle} className='py-5'>
             <h1 data-aos="fade-right" style={{ color: '#FBC80B' }} className='text-3xl md:text-5xl text-center py-5'>The Cornerstone of Every Collection</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-6xl mx-auto opacity-90">
                 <div
-                    className="card w-72 shadow-xl border-2 border-accent mx-auto"
+                    className="card w-72 shadow-xl border-2 border-accent mx-auto bg-gray-900 "
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                 >
@@ -34,7 +35,7 @@ const Cornerstone = () => {
                 </div>
 
                 <div
-                    className="card w-72 shadow-xl border-2 border-accent mx-auto"
+                    className="card w-72 shadow-xl border-2 border-accent mx-auto bg-gray-900"
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                 >
@@ -50,7 +51,7 @@ const Cornerstone = () => {
                 </div>
 
                 <div
-                    className="card w-72 shadow-xl p-2 border-2 border-accent mx-auto"
+                    className="card w-72 shadow-xl p-2 border-2 border-accent mx-auto bg-gray-900"
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                 >
@@ -64,7 +65,7 @@ const Cornerstone = () => {
                 </div>
 
                 <div
-                    className="card w-72 shadow-xl p-2 border-2 border-accent mx-auto"
+                    className="card w-72 shadow-xl p-2 border-2 border-accent mx-auto bg-gray-900"
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                 >

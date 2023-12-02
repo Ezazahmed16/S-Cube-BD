@@ -14,15 +14,15 @@ const OurCapability = () => {
     'https://cdn.pixabay.com/photo/2016/11/23/18/12/bag-1854148_640.jpg',
     'https://cdn.pixabay.com/photo/2016/03/20/13/48/zip-1268656_640.jpg',
     'https://cdn.pixabay.com/photo/2016/11/22/21/57/apparel-1850804_640.jpg',
-    'https://cdn.pixabay.com/photo/2020/03/09/16/02/silk-4916174_640.jpg',
+    'https://cdn.pixabay.com/photo/2019/07/16/21/13/boutique-4342604_640.jpg',
     'https://cdn.pixabay.com/photo/2016/07/12/11/45/towels-1511875_640.jpg',
     'https://cdn.pixabay.com/photo/2016/03/27/22/16/fashion-1284496_640.jpg',
     'https://cdn.pixabay.com/photo/2014/10/27/19/18/baby-shoes-505471_640.jpg',
-    'https://cdn.pixabay.com/photo/2015/01/16/15/01/fashion-601553_640.jpg',
-    'https://cdn.pixabay.com/photo/2017/03/27/12/45/woman-2178480_640.jpg',
+    'https://img.freepik.com/free-photo/young-man-choosing-cloths-menswear-shop_1303-31028.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais',
+    'https://img.freepik.com/free-photo/dark-haired-woman-with-red-lipstick-smiles-leans-stand-with-clothes-holds-package-pink-background_197531-17609.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais',
     'https://cdn.pixabay.com/photo/2020/06/05/03/35/fashion-5261318_640.jpg',
     'https://cdn.pixabay.com/photo/2016/11/19/11/33/footwear-1838767_640.jpg',
-    'https://cdn.pixabay.com/photo/2016/07/22/16/33/fashion-1535208_640.jpg',
+    'https://cdn.pixabay.com/photo/2016/03/23/14/11/sale-1274820_640.jpg',
   ];
 
 
