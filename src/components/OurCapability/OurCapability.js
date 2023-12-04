@@ -17,11 +17,13 @@ const OurCapability = () => {
     'https://cdn.pixabay.com/photo/2019/07/16/21/13/boutique-4342604_640.jpg',
     'https://cdn.pixabay.com/photo/2016/07/12/11/45/towels-1511875_640.jpg',
     'https://cdn.pixabay.com/photo/2016/03/27/22/16/fashion-1284496_640.jpg',
-    'https://cdn.pixabay.com/photo/2014/10/27/19/18/baby-shoes-505471_640.jpg',
+    'https://img.freepik.com/free-photo/huge-variety-female-shoes-bags-different-colors-shelves-shop_627829-10303.jpg?w=740&t=st=1701591347~exp=1701591947~hmac=f42de038e1398e7030905ee9f161f99da7210518e4bd883f1ae81451552c60d2',
     'https://img.freepik.com/free-photo/young-man-choosing-cloths-menswear-shop_1303-31028.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais',
     'https://img.freepik.com/free-photo/dark-haired-woman-with-red-lipstick-smiles-leans-stand-with-clothes-holds-package-pink-background_197531-17609.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais',
     'https://cdn.pixabay.com/photo/2020/06/05/03/35/fashion-5261318_640.jpg',
     'https://cdn.pixabay.com/photo/2016/11/19/11/33/footwear-1838767_640.jpg',
+    'https://img.freepik.com/premium-photo/colorful-shoe-store-rack_79390-1854.jpg?w=740',
+    'https://img.freepik.com/premium-photo/colorful-shoe-store-rack_79390-1854.jpg?w=740',
     'https://cdn.pixabay.com/photo/2016/03/23/14/11/sale-1274820_640.jpg',
   ];
 

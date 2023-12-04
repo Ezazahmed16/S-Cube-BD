@@ -48,7 +48,8 @@ const MeetOurTeam = () => {
                                     <div className="flex flex-col items-center">
                                         <h4 className="text-xl font-semibold">Md. Sazzad Murshed Ruman</h4>
                                         <p style={{ color: "#D5A01E" }} className="text-sm ">
-                                            Director ~ Merchandising & IPD
+
+                                            Director ~ Supply chain & Commercial
                                         </p>
                                         <div className="flex mt-2 space-x-2">
                                             <p style={{ color: "#7F8189" }}>+8801913162887</p>
@@ -65,7 +66,7 @@ const MeetOurTeam = () => {
                                             A S M Abdullah Hasan shohel
                                         </h4>
                                         <p style={{ color: "#D5A01E" }} className="text-sm ">
-                                            Director ~ Supply chain & Commercial
+                                            Director ~ Merchandising & IPD
                                         </p>
                                         <div className="flex mt-2 space-x-2">
                                             <p style={{ color: "#7F8189" }}>+8801719154759</p>

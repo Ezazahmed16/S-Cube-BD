@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { motion } from "framer-motion"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import bg_1 from "../../assets/bg/bg_3.webp"
@@ -19,18 +18,9 @@ const Banner = () => {
                 <div className="hero-content text-center">
                     <div className="max-w-lg">
 
-                        <motion.h1
-                            style={{ color: '#FBC80B' }}
-                            className="mb-5 text-5xl font-bold"
-                            initial={{ y: -1000 }}
-                            animate={{ y: 0 }}
-                            transition={{
-                                duration: "1",
-                                delay: "1"
-                            }}
-                        >
+                        <h1 className='text-5xl' data-aos="zoom-out" style={{ color: '#FBC80B' }}>
                             Welcome to 
-                        </motion.h1>
+                        </h1>
 
                         <TypeAnimation
                             sequence={[

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import bg from '../../assets/fabric-texture-background1.jpg';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Certificates from '../Certificates/Certificates';
 const OurMission = () => {
 
   useEffect(() => {
@@ -14,7 +15,6 @@ const OurMission = () => {
   return (
     <div>
       <div style={backgroundStyle} className="py-10">
-
         <div className="">
           <div className="hero min-h-screen">
             <div className="hero-content grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center">
@@ -23,15 +23,14 @@ const OurMission = () => {
                   Our Mission at S-Cube BD</h1>
                 <p style={{ color: "#D5A01E" }} className="py-6">
 
-                  At S-Cube BD, our mission is clear and concise: to deliver exceptional professional services that effectively address our clients' business challenges. We achieve this by attracting and retaining top talent, fostering a collaborative culture that encourages both professional and personal growth. Our commitment is to be the most trusted and respected professional services firm, recognized by our clients for delivering excellence.
+                At S-Cube BD, our mission as a buying house is to epitomize excellence, intricately weaving a tapestry of trust, innovation, and unparalleled service within the dynamic global trade landscape. We aspire to stand as the beacon of reliability, fostering lasting partnerships with both clients and suppliers. With a commitment to staying at the forefront of industry trends, we aim to infuse every transaction with a blend of expertise and innovation. Our relentless pursuit of excellence is the driving force behind our mission to redefine standards in the buying house sector, ensuring that each engagement reflects our dedication to delivering exceptional value and forging enduring connections in the ever-evolving realm of international commerce.
 
                 </p>
               </div>
 
               <div data-aos="zoom-out-left" className="">
                 <img
-                  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6bc85e103416677.5f4d06575886f.jpg"
-                  className="rounded-3xl shadow-2xl"
+                  src="https://img.freepik.com/premium-photo/fashion-models-runway-fashion-showgenerative-ai_391052-17645.jpg?w=826"
                   alt=""
                 />
               </div>
@@ -41,6 +40,7 @@ const OurMission = () => {
           </div>
         </div>
       </div>
+      <Certificates />
     </div>
   );
 };

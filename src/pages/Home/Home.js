@@ -5,6 +5,8 @@ import Cornerstone from '../../components/Cornerstone/Cornerstone';
 import MeetOurTeam from '../../components/MeetOurTeam/MeetOurTeam';
 import KeyLocarion from '../../components/KeyLocarion/KeyLocarion';
 import OurClients from '../../components/OurClients/OurClients';
+import Sustainability from '../../components/Sustainability/Sustainability';
+import Certificates from '../../components/Certificates/Certificates';
 
 
 const Home = () => {
@@ -14,8 +16,10 @@ const Home = () => {
       <TrustedPartner />
       <KeyLocarion />
       <Cornerstone />
+      <Sustainability />
       <OurClients />
       <MeetOurTeam />
+      <Certificates />
     </div>
   )
 }
