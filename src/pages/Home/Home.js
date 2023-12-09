@@ -7,6 +7,7 @@ import KeyLocarion from '../../components/KeyLocarion/KeyLocarion';
 import OurClients from '../../components/OurClients/OurClients';
 import Sustainability from '../../components/Sustainability/Sustainability';
 import Certificates from '../../components/Certificates/Certificates';
+import ProductRange from '../../components/ProductRange/ProductRange';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <TrustedPartner />
       <KeyLocarion />
       <Cornerstone />
+      <ProductRange />
       <Sustainability />
       <OurClients />
       <MeetOurTeam />

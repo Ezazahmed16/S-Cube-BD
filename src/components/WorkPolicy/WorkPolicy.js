@@ -15,7 +15,7 @@ const WorkPolicy = () => {
                     We Work
                 </h1>
                 <p style={{ color: "#FBC80B" }} className="py-6 w-3/4 mx-auto text-center">
-                Our work at S-Cube BD is crafted to captivate every discerning buyer, inviting them into a realm of unparalleled excellence. We aspire to leave an indelible impression by seamlessly addressing our clients' business challenges with finesse and innovation. Our commitment to attracting and retaining top-tier talent ensures a service that not only meets but exceeds expectations. Embracing a culture of collaboration and continuous growth, we aim to be the magnetic force that draws buyers in, positioning us as the epitome of trust and distinction in the buying house landscape.
+                    Our work at S-Cube BD is crafted to captivate every discerning buyer, inviting them into a realm of unparalleled excellence. We aspire to leave an indelible impression by seamlessly addressing our clients' business challenges with finesse and innovation. Our commitment to attracting and retaining top-tier talent ensures a service that not only meets but exceeds expectations. Embracing a culture of collaboration and continuous growth, we aim to be the magnetic force that draws buyers in, positioning us as the epitome of trust and distinction in the buying house landscape.
                 </p>
 
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-3 opacity-70">

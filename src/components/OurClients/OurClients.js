@@ -11,7 +11,7 @@ const OurClients = () => {
     return (
         <div className="hero min-h-screen" style={backgroundStyle}>
             <div className="hero-overlay bg-opacity-60"></div>
-            <div className="max-w-7xl mx-auto h-screen">
+            <div className="max-w-7xl mx-auto min-h-screen">
                 <div className="py-10">
                     <h1 data-aos="fade-right" style={{ color: "#FBC80B" }} className="text-5xl font-bold text-center">OUR CLIENTS COME FROM ALL AROUND THE WORLD
                     </h1>
