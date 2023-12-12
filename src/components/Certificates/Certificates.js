@@ -10,7 +10,7 @@ const Certificates = () => {
         <div style={style} className='hero min-h-screen'>
             <div className="hero-overlay bg-opacity-70"></div>
 
-            <div className="py-20 max-w-7xl mx-auto px-5 mx-auto">
+            <div className="py-20 max-w-7xl px-5 mx-auto">
                 <h1 data-aos="fade-right" style={{ color: "#FBC80B" }} className="text-3xl font-bold text-center w-4/6 mx-auto">Our manufacturing partners adhere to international standards and practices.</h1>
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-5 mt-10 items-center">
                     <div data-aos="zoom-in" className="w-32 h-28">

@@ -4,7 +4,6 @@ import TrustedPartner from '../../components/TrustedPartner/TrustedPartner';
 import Cornerstone from '../../components/Cornerstone/Cornerstone';
 import MeetOurTeam from '../../components/MeetOurTeam/MeetOurTeam';
 import KeyLocarion from '../../components/KeyLocarion/KeyLocarion';
-import OurClients from '../../components/OurClients/OurClients';
 import Sustainability from '../../components/Sustainability/Sustainability';
 import Certificates from '../../components/Certificates/Certificates';
 import ProductRange from '../../components/ProductRange/ProductRange';
@@ -12,14 +11,14 @@ import ProductRange from '../../components/ProductRange/ProductRange';
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Banner />
       <TrustedPartner />
       <KeyLocarion />
       <Cornerstone />
       <ProductRange />
       <Sustainability />
-      <OurClients />
+      {/* <OurClients /> */}
       <MeetOurTeam />
       <Certificates />
     </div>

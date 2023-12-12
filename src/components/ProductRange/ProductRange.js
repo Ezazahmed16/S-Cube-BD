@@ -1,9 +1,5 @@
 import React from 'react'
 import bg from '../../assets/img/elegant-mannequin-standing-modern-boutique-window-generated-by-ai.jpg'
-import img1 from '../../assets/img/img23.jpg'
-import img2 from '../../assets/img/img19.jpg'
-import img3 from '../../assets/img/img11.jpg'
-import img4 from '../../assets/img/img26.jpg'
 import { Link } from 'react-router-dom'
 
 const ProductRange = () => {
@@ -36,10 +32,10 @@ const ProductRange = () => {
                             <div className="py-6">
                                 <div className="container flex flex-col justify-center p-4 mx-auto">
                                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
-                                        <img className="object-cover w-full bg-gray-500 aspect-square" src={img1} />
-                                        <img className="object-cover w-full bg-gray-500 aspect-square" src={img2} />
-                                        <img className="object-cover w-full bg-gray-500 aspect-square" src={img3} />
-                                        <img className="object-cover w-full bg-gray-500 aspect-square" src={img4} />
+                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/multicolored-man-s-shirts-showcase-boutique_213607-982.jpg?w=740' alt=''/>
+                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/two-hoodies-hanging-wall-one-which-says-i-love-you_889227-730.jpg?w=740'  alt=''/>
+                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/graphic-shirt-trendy-design-mockup_460848-12972.jpg?w=740'  alt=''/>
+                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/stylish-clothes-hipster-fashion-pink-shirt-denim-overalls-hanger-wardrobe-trends_161568-3751.jpg?w=740'  alt=''/>
                                     </div>
                                 </div>
                                 <Link className='flex justify-center items-center h-full' to="/OurCapability">

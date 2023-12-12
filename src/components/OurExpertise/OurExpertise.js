@@ -41,7 +41,6 @@ const OurExpertise = () => {
     img10,
     'https://img.freepik.com/free-photo/shop-consultant-man-choosing-suit-looking-mannequin_7502-4366.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais',
     img24,
-    img6,
     ex_9,
     'https://img.freepik.com/free-photo/young-handsome-man-choosing-shoes-shop_1303-19707.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais',
     'https://img.freepik.com/free-photo/best-friends-together-spend-time-two-beautiful-girls-make-purchases-clothing-store-they-dressed-same-clothes_146671-15090.jpg?w=740&t=st=1701591103~exp=1701591703~hmac=66fe6b13ec63b5a56dea21c8be7ce82a7bf89365eaaf798256ed25287ee65e3d',
@@ -54,6 +53,11 @@ const OurExpertise = () => {
       <h1 data-aos="zoom-in" className="text-5xl text-center py-5" style={{ color: '#FBC80B' }}>
         Our Expertise
       </h1>
+
+      <p className="text-center py-5 container mx-auto" style={{ color: '#D5A01E' }}>
+        At S-Cube BD, our capacity extends beyond delivering exceptional professional services. We prioritize Compliance, ensuring that all our operations adhere to ethical standards and regulatory requirements. Our commitment to on-time delivery and maintaining the highest quality sets us apart. We firmly believe in cultivating long-term, mutually beneficial business relationships built on transparency and ethical commerce practices. Analyzing products and production efficiency, we engage in product reengineering to ensure competitive pricing for our clients. To stay ahead of the curve, we meticulously scrutinize market trends in fabric, color, and style. Our team actively participates in various fairs and collaborates with trend analysis companies to provide our clients with cutting-edge solutions. Our team is the backbone of our success. We invest in our team members, fostering a culture of continuous learning and growth. This investment enhances team expertise, enabling us to grow together and better serve our clients.
+      </p>
+
 
       <div style={backgroundStyle} className="p-10">
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>

@@ -1,5 +1,7 @@
 import React from 'react'
 import bg from '../../assets/bg/bg_3.webp'
+import work_bg_5 from '../../assets/work_bg_5.jpg'
+import work_bg_3 from '../../assets/work_bg_3.jpg'
 
 const WorkPolicy = () => {
 
@@ -24,7 +26,7 @@ const WorkPolicy = () => {
                         data-aos-anchor-placement="top-bottom"
                         className="card shadow-xl bg-gray-800">
                         <figure className="px-2 pt-10 max-h-36">
-                            <img src="https://cdn.pixabay.com/photo/2018/01/25/10/46/businessman-3105873_640.jpg" alt="Shoes" className="rounded-xl" />
+                            <img src="https://cdn.pixabay.com/photo/2018/01/25/10/46/businessman-3105873_640.jpg" alt="Shoes" className="rounded-xl h-36" />
                         </figure>
                         <div className="card-body">
                             <h2 style={{ color: "#FBC80B" }} className="card-title mx-auto">Vendor  KPI</h2>
@@ -37,7 +39,7 @@ const WorkPolicy = () => {
                     <div data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom" className="card shadow-xl opacity-50 bg-gray-800">
                         <figure className="px-2 pt-10 max-h-36">
-                            <img src="https://cdn.pixabay.com/photo/2017/11/24/12/16/shaking-hands-2974790_640.jpg" alt="Shoes" className="rounded-xl" />
+                            <img src={work_bg_3} alt="Shoes" className="rounded-xl h-36" />
                         </figure>
                         <div className="card-body">
                             <h2 style={{ color: "#FBC80B" }} className="card-title mx-auto">Stable  business  relationship
@@ -50,7 +52,7 @@ const WorkPolicy = () => {
                     <div data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom" className="card shadow-xl opacity-50 bg-gray-800">
                         <figure className="px-2 pt-10 max-h-36">
-                            <img src="https://img.freepik.com/free-photo/character-holding-green-arrow-tree-with-money_1134-289.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais" alt="Shoes" className="rounded-xl" />
+                            <img src="https://img.freepik.com/free-photo/character-holding-green-arrow-tree-with-money_1134-289.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais" alt="Shoes" className="rounded-xl h-36" />
                         </figure>
                         <div className="card-body">
                             <h2 style={{ color: "#FBC80B" }} className="card-title mx-auto">Price  competitiveness  analysis</h2>
@@ -61,7 +63,7 @@ const WorkPolicy = () => {
                     <div data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom" className="card shadow-xl opacity-50 bg-gray-800">
                         <figure className="px-2 pt-10 max-h-36">
-                            <img src="https://img.freepik.com/free-photo/examining-business-documents_1098-18049.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais" alt="Shoes" className="rounded-xl" />
+                            <img src="https://img.freepik.com/free-photo/examining-business-documents_1098-18049.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais" alt="Shoes" className="rounded-xl h-36" />
                         </figure>
                         <div className="card-body">
                             <h2 style={{ color: "#FBC80B" }} className="card-title mx-auto">Market  trend  analysis</h2>
@@ -72,7 +74,7 @@ const WorkPolicy = () => {
                     <div data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom" className="card shadow-xl opacity-50 bg-gray-800">
                         <figure className="px-2 pt-10 max-h-36">
-                            <img src="https://img.freepik.com/free-photo/trans-person-working-office-with-colleagues_23-2149286979.jpg?size=626&ext=jpg&ga=GA1.1.1389451345.1700558843&semt=ais" alt="Shoes" className="rounded-xl" />
+                            <img src={work_bg_5} alt="Shoes" className="rounded-xl h-36" />
                         </figure>
                         <div className="card-body">
                             <h2 style={{ color: "#FBC80B" }} className="card-title mx-auto">Employee engagement</h2>

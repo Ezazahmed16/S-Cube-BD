@@ -1,7 +1,7 @@
 import React from 'react'
-import shihab from '../../assets/shihab.jpg'
-import ruman from '../../assets/ruman.jpg'
-import sohel from '../../assets/sohel.jpg'
+import shihab from '../../assets/shihab_bg.jpg'
+import ruman from '../../assets/ruman_bg.jpg'
+import sohel from '../../assets/shohel_bg.jpg'
 import bg from '../../assets/bg/t_bg_4.webp'
 
 const MeetOurTeam = () => {
@@ -44,6 +44,23 @@ const MeetOurTeam = () => {
 
                                 <div data-aos="fade-up"
                                     data-aos-duration="3000" className="space-y-4">
+                                    <img alt="" className="object-cover h-56 w-48 mx-auto mb-4 bg-center rounded-sm bg-gray-500" src={sohel} />
+                                    <div className="flex flex-col items-center">
+                                        <h4 className="text-xl font-semibold">
+                                            A S M Abdullah Hasan shohel
+                                        </h4>
+                                        <p style={{ color: "#D5A01E" }} className="text-sm ">
+                                            Director ~ Supply chain & Commercial
+                                        </p>
+                                        <div className="flex mt-2 space-x-2">
+                                            <p style={{ color: "#7F8189" }}>+88 01726369626</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-aos="fade-up"
+                                    data-aos-duration="3000" className="space-y-4">
                                     <img alt="" className="object-cover h-56 w-48 mx-auto mb-4 bg-center rounded-sm bg-gray-500" src={ruman} />
                                     <div className="flex flex-col items-center">
                                         <h4 className="text-xl font-semibold">Md. Sazzad Murshed Ruman</h4>
@@ -57,22 +74,6 @@ const MeetOurTeam = () => {
                                     </div>
                                 </div>
 
-                                <div data-aos="fade-up"
-                                    data-aos-duration="3000" className="space-y-4">
-                                    <img alt="" className="object-cover h-56 w-48 mx-auto mb-4 bg-center rounded-sm bg-gray-500" src={sohel} />
-                                    <div className="flex flex-col items-center">
-                                        <h4 className="text-xl font-semibold">
-                                            A S M Abdullah Hasan shohel
-                                        </h4>
-                                        <p style={{ color: "#D5A01E" }} className="text-sm ">
-                                            Director ~ Supply chain & Commercial
-                                        </p>
-                                        <div className="flex mt-2 space-x-2">
-                                            <p style={{ color: "#7F8189" }}>+8801719154759</p>
-
-                                        </div>
-                                    </div>
-                                </div>
 
                             </div>
                         </div>

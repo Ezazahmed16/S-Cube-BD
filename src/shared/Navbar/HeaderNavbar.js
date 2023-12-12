@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md'
 
 const HeaderNavbar = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div className="bg-gray-950 text-white p-2 block md:flex text-xs justify-between">
                 <div className="flex gap-2 items-center justify-center">
                     <FaMapMarked className='w-6 h-6' />

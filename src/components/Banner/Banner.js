@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import bg_1 from '../../assets/bg/bg_3.webp';
+import bg_1 from '../../assets/banner_bg_03.jpg';
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
@@ -11,7 +11,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="min-h-screen hero " style={{ backgroundImage: `url(${bg_1})` }}>
+    <div className="min-h-screen hero" style={{ backgroundImage: `url(${bg_1})` }}>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center">
         <div className="max-w-lg mx-auto">

@@ -6,7 +6,7 @@ import HeaderNavbar from '../shared/Navbar/HeaderNavbar'
 
 const Main = () => {
   return (
-    <div>
+    <div className=''>
       <HeaderNavbar />
       <Navbar />
       <Outlet />
