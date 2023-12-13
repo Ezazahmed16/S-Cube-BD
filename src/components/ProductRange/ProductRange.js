@@ -38,7 +38,7 @@ const ProductRange = () => {
                                         <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/stylish-clothes-hipster-fashion-pink-shirt-denim-overalls-hanger-wardrobe-trends_161568-3751.jpg?w=740'  alt=''/>
                                     </div>
                                 </div>
-                                <Link className='flex justify-center items-center h-full' to="/OurCapability">
+                                <Link className='flex justify-center items-center h-full' to="/product-details">
                                     <button style={{ backgroundColor: '#FBC80B' }} className="btn btn-outline">
                                         See All
                                     </button>

@@ -8,6 +8,7 @@ import WorkPolicy from "../components/WorkPolicy/WorkPolicy";
 import OurExpertise from "../components/OurExpertise/OurExpertise";
 import Contact from "../pages/Contact/Contact";
 import Error from '../shared/Error/Error'
+import ProductRangeDetails from "../components/ProductRangeDetails/ProductRangeDetails";
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: "/contact",
                 element: <Contact />,
+            },
+            {
+                path: "/product-details",
+                element: <ProductRangeDetails />,
             },
         ]
     },
