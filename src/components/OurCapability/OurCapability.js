@@ -20,13 +20,13 @@ const OurCapability = () => {
   };
 
   const images = [
-    'https://img.freepik.com/premium-photo/close-up-top-view-man-polo-shirt-put-rustic-wooden-table-top-with-blank-space-use-texts-display_34810-1484.jpg?w=740',
-    'https://img.freepik.com/premium-photo/cargo-pants-isolated_624181-2167.jpg?w=360',
-    'https://img.freepik.com/premium-photo/shirt-isolated_770606-2683.jpg?w=360',
-    'https://img.freepik.com/premium-photo/pink-pants-blue-jeans-colorful-stylish-female-pants-trousers-suit-all-tastes-white-shelf_274234-7725.jpg?w=740',
-    'https://img.freepik.com/premium-photo/women-s-minimal-fashion-pastel-clothes-stylish-female-t-shirts-hoodie-pants-hanger_96872-4203.jpg?w=740',
-    'https://img.freepik.com/premium-photo/sheepskin-coat-isolated_624181-2744.jpg?w=360',
-    'https://img.freepik.com/premium-photo/sheepskin-coat-isolated_624181-2744.jpg?w=360',
+    // 'https://img.freepik.com/premium-photo/close-up-top-view-man-polo-shirt-put-rustic-wooden-table-top-with-blank-space-use-texts-display_34810-1484.jpg?w=740',
+    // 'https://img.freepik.com/premium-photo/cargo-pants-isolated_624181-2167.jpg?w=360',
+    // 'https://img.freepik.com/premium-photo/shirt-isolated_770606-2683.jpg?w=360',
+    // 'https://img.freepik.com/premium-photo/pink-pants-blue-jeans-colorful-stylish-female-pants-trousers-suit-all-tastes-white-shelf_274234-7725.jpg?w=740',
+    // 'https://img.freepik.com/premium-photo/women-s-minimal-fashion-pastel-clothes-stylish-female-t-shirts-hoodie-pants-hanger_96872-4203.jpg?w=740',
+    // 'https://img.freepik.com/premium-photo/sheepskin-coat-isolated_624181-2744.jpg?w=360',
+    // 'https://img.freepik.com/premium-photo/sheepskin-coat-isolated_624181-2744.jpg?w=360',
 
     img16,
     img17,

@@ -9,9 +9,7 @@ const Contact = () => {
     return (
         <div>
             <div style={backgroundStyle} className="min-h-screen py-16 justify-center items-center">
-                <h1 data-aos="zoom-in" className="text-5xl text-center pb-10" style={{ color: '#FBC80B' }}>
-                    Contact With Us
-                </h1>
+
                 <div className="hero">
 
                     <div style={{ color: "#FBC80B" }} className="py-6">

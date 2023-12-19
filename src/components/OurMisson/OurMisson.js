@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import bg from '../../assets/fabric-texture-background1.jpg';
+import bg from '../../assets/fabric-texture-background1.webp';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Certificates from '../Certificates/Certificates';

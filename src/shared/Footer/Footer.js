@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../assets/Logo.png'
-import background from '../../assets/fabric-texture-background1.jpg'
+import background from '../../assets/fabric-texture-background1.webp'
 import { Link } from 'react-router-dom'
 import { FaFacebook } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
