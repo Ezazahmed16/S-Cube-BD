@@ -30,7 +30,7 @@ const Cornerstone = () => {
                         <p style={{ color: "#D5A01E" }} className='text-accent text-sm'>S-Cube BD's Research & Development ensures compliance, timely delivery, and quality, offering competitive pricing through continuous product and market analysis.</p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
-                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_640.jpg" alt="Shoes" /></figure>
+                        <figure><img className='h-40 w-56 mb-2' src="https://img.freepik.com/premium-photo/portrait-young-attractive-hipster-asia-female-owner-startup-look-camera-work-happy-with-box-home-prepare-parcel-delivery-sme-supply-chain-procurement-omnichannel-ecommerce-online-concept_265022-52842.jpg?w=740" alt="Shoes" /></figure>
                     </motion.div>
                 </div>
 
@@ -45,7 +45,7 @@ const Cornerstone = () => {
                             S-Cube BD's design expertise blends creativity and functionality, ensuring captivating aesthetics and optimal user experience for your brand.</p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
-                        <figure><img className='h-40 w-56 mb-2' src="https://cdn.pixabay.com/photo/2017/08/03/12/21/tailoring-2575930_640.jpg" alt="Shoes" /></figure>
+                        <figure><img className='h-40 w-56 mb-2' src="https://img.freepik.com/premium-photo/owner-business-asian-young-women-fashion-designer-working-her-designer-showroom-lifestyle-stylish-tailor-taking-measurements-mannequin-cutting-cloths-studio-small-business_265022-41999.jpg?w=740" alt="Shoes" /></figure>
                     </motion.div>
 
                 </div>

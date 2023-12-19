@@ -32,8 +32,8 @@ const ProductRange = () => {
                             <div className="py-6">
                                 <div className="container flex flex-col justify-center p-4 mx-auto">
                                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
-                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/multicolored-man-s-shirts-showcase-boutique_213607-982.jpg?w=740' alt=''/>
-                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/two-hoodies-hanging-wall-one-which-says-i-love-you_889227-730.jpg?w=740'  alt=''/>
+                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/showcase-male-business-suits-store_279525-311.jpg?w=740' alt=''/>
+                                        <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/jeans-wooden-background_93675-19687.jpg?w=360'  alt=''/>
                                         <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/graphic-shirt-trendy-design-mockup_460848-12972.jpg?w=740'  alt=''/>
                                         <img className="object-cover w-full bg-gray-500 aspect-square rounded-xl" src='https://img.freepik.com/premium-photo/stylish-clothes-hipster-fashion-pink-shirt-denim-overalls-hanger-wardrobe-trends_161568-3751.jpg?w=740'  alt=''/>
                                     </div>

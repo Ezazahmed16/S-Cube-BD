@@ -2,7 +2,7 @@ import React from 'react'
 
 const Certificates = () => {
     const style = {
-        backgroundImage: 'url("https://img.freepik.com/premium-photo/autumn-female-clothes-pink-background-with-leaves_151851-880.jpg?w=740")',
+        backgroundImage: 'url("https://img.freepik.com/premium-photo/front-fancy-store_746318-3458.jpg?w=740")',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
     };
